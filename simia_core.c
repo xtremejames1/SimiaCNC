@@ -23,16 +23,55 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include "simia_core_map.h"
 #include "driver.h"
 
 #if defined(BOARD_SIMIA_CORE)
 
-limit_signals_t signals = {0};
-/*
- * Send shift register shift command and read successive bits
- *
- */
+#include "pico/time.h"
+#include "hardware/gpio.h"
 
-hal.homing.get_state = signals;
+
+static limit_signals_t readLimitStates (void)
+{
+    limit_signals_t signals = {0};
+
+    DIGITAL_OUT(SH_LD, 0);
+    time.sleep_us(125);
+    DIGITAL_OUT(SH_LD, 1);
+    time.sleep_us(125);
+
+    signals.min.x = DIGITAL_IN(QH_BIT);
+
+    DIGITAL_OUT(CLK_BIT, 1);
+    time.sleep_us(125);
+    DIGITAL_OUT(CLK_BIT, 0);
+    time.sleep_us(125);
+
+    signals.min.y = DIGITAL_IN(QH_BIT);
+
+    DIGITAL_OUT(CLK_BIT, 1);
+    time.sleep_us(125);
+    DIGITAL_OUT(CLK_BIT, 0);
+    time.sleep_us(125);
+
+    signals.min.z = DIGITAL_IN(QH_BIT);
+
+    DIGITAL_OUT(CLK_BIT, 1);
+    time.sleep_us(125);
+    DIGITAL_OUT(CLK_BIT, 0);
+    time.sleep_us(125);
+
+    signals.min.a = DIGITAL_IN(QH_BIT);
+
+    DIGITAL_OUT(CLK_BIT, 1);
+    time.sleep_us(125);
+    DIGITAL_OUT(CLK_BIT, 0);
+    time.sleep_us(125);
+
+    return signals;
+}
+
+hal.homing.get_state = readLimitStates();
 
 #endif
