@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/CMakeFiles/PioasmBuild
+C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/CMakeFiles/PioasmBuild.rule
+C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/CMakeFiles/PioasmBuild-complete.rule
+C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

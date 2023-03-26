@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bluetooth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eeprom" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/embroidery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/grbl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/keypad" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/motors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/networking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sdcard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spindle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trinamic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/webui" vcs="Git" />
+  </component>
+</project>

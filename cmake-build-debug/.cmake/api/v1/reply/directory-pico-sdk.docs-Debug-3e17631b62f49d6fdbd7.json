@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pico-sdk/docs",
+		"source" : "C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/docs"
+	}
+}

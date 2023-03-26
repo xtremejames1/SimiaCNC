@@ -57,7 +57,7 @@ add_executable(grblHAL
  littlefs/lfs.c
  littlefs/lfs_util.c
  littlefs_hal.c
-        simia_core.c)
+        )
 
 pico_generate_pio_header(grblHAL ${CMAKE_CURRENT_LIST_DIR}/driverPIO.pio)
 

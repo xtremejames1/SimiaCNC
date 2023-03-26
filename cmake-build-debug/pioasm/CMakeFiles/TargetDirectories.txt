@@ -1,0 +1,3 @@
+C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/CMakeFiles/pioasm.dir
+C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/CMakeFiles/edit_cache.dir
+C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/CMakeFiles/rebuild_cache.dir

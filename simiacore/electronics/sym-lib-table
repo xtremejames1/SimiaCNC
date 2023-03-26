@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "power_extra")(type "Legacy")(uri "C:/Users/xtrem/Downloads/rp2040_stamp_hw-main/power_extra.lib")(options "")(descr ""))
+  (lib (name "Memory_Flash_Extra")(type "Legacy")(uri "C:/Users/xtrem/Downloads/rp2040_stamp_hw-main/Memory_Flash_Extra.lib")(options "")(descr ""))
+  (lib (name "LED_Extra")(type "KiCad")(uri "C:/Users/xtrem/Downloads/rp2040_stamp_hw-main/LED_Extra.kicad_sym")(options "")(descr ""))
+  (lib (name "Battery_Management_Extra")(type "KiCad")(uri "C:/Users/xtrem/Downloads/rp2040_stamp_hw-main/Battery_Management_Extra.kicad_sym")(options "")(descr ""))
+  (lib (name "RP2040_Stamp")(type "KiCad")(uri "${KICAD7_3RD_PARTY}/RP2040_Stamp.kicad_sym")(options "")(descr ""))
+)
