@@ -44,20 +44,16 @@
 #define ENABLE_PORT             GPIO_OUTPUT
 #define STEPPERS_ENABLE_PIN     14
 
-// Define shift register pins for limit switches.
-#define QH_PIN                      20
-#define CLK_PIN                     21
-#define SH_LD_PIN                   22
-
-#define QH_BIT (1<<QH_PIN)
-#define CLK_BIT (1<<CLK_PIN)
-#define SH_LD_BIT (1<<SH_LD_PIN)
-
+// Define homing/hard limit switch input pins.
+#define X_LIMIT_PIN             18
+#define Y_LIMIT_PIN             19
+#define Z_LIMIT_PIN             20
 
 // Define ganged axis or A axis step pulse and step direction output pins.
 #define M3_AVAILABLE
 #define M3_STEP_PIN             (STEP_PINS_BASE + 3)
 #define M3_DIRECTION_PIN        (Z_DIRECTION_PIN + 1)
+#define M3_LIMIT_PIN            (Z_LIMIT_PIN + 1)
 
 // Define spindle enable and spindle direction output pins.
 #define SPINDLE_PORT            GPIO_OUTPUT
@@ -70,13 +66,13 @@
 
 // Define flood OR mist coolant enable output pins. ONLY ONE can be active at any time.
 #define COOLANT_PORT            GPIO_OUTPUT
-//#define COOLANT_FLOOD_PIN       16
-#define COOLANT_MIST_PIN        16
+//#define COOLANT_FLOOD_PIN       0
+#define COOLANT_MIST_PIN        0
 
 // Define user-control controls (cycle start, reset, feed hold) input pins.
-#define RESET_PIN               17
-#define FEED_HOLD_PIN           18
-#define CYCLE_START_PIN         19
+#define RESET_PIN               29
+#define FEED_HOLD_PIN           16
+#define CYCLE_START_PIN         17
 
 //Define SD card pins
 #if SDCARD_ENABLE
