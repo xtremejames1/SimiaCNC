@@ -139,7 +139,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/grblHAL
 CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.2 mpacbti-rel1/bin/arm-none-eabi-ld.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~1/JetBrains/CLion 2022.3.3/bin/ninja/win/x64/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/JetBrains/CLion 2022.3.3/bin/ninja/win/x64/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -490,7 +490,7 @@ PICO_BOOT_STAGE2_DIR:INTERNAL=C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/
 PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/cmake/preload/platforms
 PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/cmake/preload/platforms/rp2040.cmake
 PICO_COMPILER_ASM:INTERNAL=C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.2 mpacbti-rel1/bin/arm-none-eabi-gcc.exe
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2_common/cmsis C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2040/hardware_regs C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2_common/cmsis C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2040/hardware_regs
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2_common/cmsis C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2040/hardware_regs C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2_common/cmsis C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2040/hardware_regs C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2_common/cmsis C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2040/hardware_regs C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2_common/cmsis C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2040/hardware_regs C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2_common/cmsis C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2040/hardware_regs C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2_common/cmsis C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2040/hardware_regs
 PICO_DOXYGEN_PATHS:INTERNAL= C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/common C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2_common C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2040
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1

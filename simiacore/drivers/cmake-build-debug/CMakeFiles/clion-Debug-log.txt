@@ -5,7 +5,6 @@ Build type is Debug
 Using regular optimized debug build (set PICO_DEOPTIMIZED_DEBUG=1 to de-optimize)
 PICO target board is pico.
 Using board configuration from C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/boards/include/boards/pico.h
--- Found Python3: C:/Users/xtrem/AppData/Local/Programs/Python/Python311/python.exe (found version "3.11.2") found components: Interpreter 
 CMake Warning at C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/src/rp2_common/tinyusb/CMakeLists.txt:10 (message):
   TinyUSB submodule has not been initialized; USB support will be unavailable
 

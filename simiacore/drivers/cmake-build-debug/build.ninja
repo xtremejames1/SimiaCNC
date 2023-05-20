@@ -1177,7 +1177,7 @@ build pioasm/src/PioasmBuild-stamp/PioasmBuild-build | ${cmake_ninja_workdir}pio
 # Custom command for pioasm\src\PioasmBuild-stamp\PioasmBuild-configure
 
 build pioasm/src/PioasmBuild-stamp/PioasmBuild-configure | ${cmake_ninja_workdir}pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: CUSTOM_COMMAND pioasm/tmp/PioasmBuild-cfgcmd.txt pioasm/tmp/PioasmBuild-cache-Debug.cmake pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
-  COMMAND = cmd.exe /C "cd /D C:\Users\xtrem\CLionProjects\SimiaCNC\simiacore\drivers\cmake-build-debug\pioasm && "C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" "-DCMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~1/JetBrains/CLion 2022.3.3/bin/ninja/win/x64/ninja.exe" -GNinja -CC:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/tmp/PioasmBuild-cache-Debug.cmake C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/tools/pioasm && "C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure"
+  COMMAND = cmd.exe /C "cd /D C:\Users\xtrem\CLionProjects\SimiaCNC\simiacore\drivers\cmake-build-debug\pioasm && "C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" "-DCMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/JetBrains/CLion 2022.3.3/bin/ninja/win/x64/ninja.exe" -GNinja -CC:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/tmp/PioasmBuild-cache-Debug.cmake C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/tools/pioasm && "C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure"
   DESC = Performing configure step for 'PioasmBuild'
   restat = 1
 
@@ -1269,7 +1269,7 @@ build elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build | ${cmake_ninja_workdir}
 # Custom command for elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-configure
 
 build elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure | ${cmake_ninja_workdir}elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: CUSTOM_COMMAND elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
-  COMMAND = cmd.exe /C "cd /D C:\Users\xtrem\CLionProjects\SimiaCNC\simiacore\drivers\cmake-build-debug\elf2uf2 && "C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" "-DCMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~1/JetBrains/CLion 2022.3.3/bin/ninja/win/x64/ninja.exe" -GNinja C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/tools/elf2uf2 && "C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure"
+  COMMAND = cmd.exe /C "cd /D C:\Users\xtrem\CLionProjects\SimiaCNC\simiacore\drivers\cmake-build-debug\elf2uf2 && "C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" "-DCMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/JetBrains/CLion 2022.3.3/bin/ninja/win/x64/ninja.exe" -GNinja C:/Users/xtrem/OneDrive/Documents/pico-sdk-master/tools/elf2uf2 && "C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/xtrem/CLionProjects/SimiaCNC/simiacore/drivers/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure"
   DESC = Performing configure step for 'ELF2UF2Build'
   restat = 1
 
